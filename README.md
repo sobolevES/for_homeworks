@@ -2,7 +2,7 @@
 # add comment_2
 
 # devops-netology
-# edit file
+# edit file f4
 
 ####### .gitignore #####
 #  https://github.com/github/gitignore/blob/master/Terraform.gitignore#L1
