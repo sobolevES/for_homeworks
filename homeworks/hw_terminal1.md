@@ -14,8 +14,8 @@ config.vm.provider "virtualbox" do |v|
 end  
 
 
-#################################
- ~/.bash_history   #сюда пишем историю
+
+###### ~/.bash_history   #сюда пишем историю
 
 
 8.1.
@@ -23,9 +23,9 @@ end
 
 vagrant@ubuntu-devops5:~$ cat .bashrc | grep HIST
 HISTCONTROL=ignoreboth
-`#for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+#######for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000  
+HISTFILESIZE=2000  
 
 ![screenshot2](https://gitlab.com/SobolevES/devops-netology/-/blob/main/pics/HISTFILE&HISTFILESIZE.jpg)
 ![screenshot3](https://gitlab.com/SobolevES/devops-netology/-/blob/main/pics/HISTSIZE.jpg)
@@ -34,7 +34,7 @@ HISTFILESIZE=2000
 >>что делает директива ignoreboth в bash?
 
  Сочетает в себе две опции:  
-    ignorespace (строки/команды, которые начинаются с пробела не попадают в history) и 
+    ignorespace (строки/команды, которые начинаются с пробела не попадают в history) и  
     ignoredups (дублирующиеся подряд строки/команды не записываются в history)  
 ![screenshot4](https://gitlab.com/SobolevES/devops-netology/-/blob/main/pics/ignoreboth.jpg)
 
@@ -110,8 +110,8 @@ bash is /usr/bin/bash
 >>Чем отличается планирование команд с помощью batch и at
 
 Обе команды необходимы для планирования одноразовых задач, но  
-  at             #в заданное время  
-  batch (at -b)  #выполнение их когда позволит уровень загрузки системы (/proc/loadavg). Иначе будут весить в очереди.  
+  at             #в заданное время   
+  batch (at -b)  #выполнение их когда позволит уровень загрузки системы (/proc/loadavg). Иначе будут весеть в очереди.  
 
 
 
