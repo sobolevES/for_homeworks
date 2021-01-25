@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdf7cea9-3105-4729-98f6-607c1e2e08fa" name="Default Changelist" comment="add_file_for_homeWork4" />
+    <list default="true" id="bdf7cea9-3105-4729-98f6-607c1e2e08fa" name="Default Changelist" comment="add_file_for_homeWork4">
+      <change afterPath="$PROJECT_DIR$/homeworks/hw_terminal1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/11.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/12.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/HISTFILE&amp;HISTFILESIZE.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/HISTSIZE.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/ignoreboth.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,11 +53,11 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="fix" />
+        <entry key="$PROJECT_DIR$" value="025ef984d5752618a3a46ce518a750e86068a118" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -60,7 +70,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1608813008" />
+                    <option name="lastUsedInstant" value="1610694172" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="fix" />
@@ -194,7 +204,35 @@
       <option name="project" value="LOCAL" />
       <updated>1608870787191</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="homeWork5">
+      <created>1610680848800</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1610680848800</updated>
+    </task>
+    <task id="LOCAL-00016" summary="homeWork5">
+      <created>1610693915928</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1610693915928</updated>
+    </task>
+    <task id="LOCAL-00017" summary="homeWork5_edit">
+      <created>1610694138314</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610694138314</updated>
+    </task>
+    <task id="LOCAL-00018" summary="homeWork5_edit">
+      <created>1610694314529</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1610694314529</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,7 +246,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="gitlab/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -253,6 +291,8 @@
     <MESSAGE value="Revert &quot;1st commit&quot;&#10;This reverts commit 68bf338e" />
     <MESSAGE value="commit_from_IDE_" />
     <MESSAGE value="Revert &quot;commit_from_IDE&quot;&#10;This reverts commit 51e06929" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;commit_from_IDE&quot;&#10;This reverts commit 51e06929" />
+    <MESSAGE value="homeWork5" />
+    <MESSAGE value="homeWork5_edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeWork5_edit" />
   </component>
 </project>
