@@ -1,11 +1,12 @@
 5. 
->>Какие ресурсы выделены по-умолчанию?
-#скрин 5
-![screenshot1](pics/5.jpg)
+>>Какие ресурсы выделены по-умолчанию?  
+
+![screenshot1](https://gitlab.com/SobolevES/devops-netology/-/blob/main/pics/5.JPG)
 
 6. 
 >>как добавить оперативной памяти или ресурсов процессора виртуальной машине?
-добавить в конфиг vargantfile
+
+добавить в конфиг vargantfile:
 
 config.vm.provider "virtualbox" do |v|  
   v.memory = 2048  
@@ -26,8 +27,8 @@ HISTCONTROL=ignoreboth
 HISTSIZE=1000
 HISTFILESIZE=2000
 
-![screenshot2](pics/HISTFILE&HISTFILESIZE.jpg)
-![screenshot3](pics/HISTSIZE.jpg)
+![screenshot2](https://gitlab.com/SobolevES/devops-netology/-/blob/main/pics/HISTFILE&HISTFILESIZE.jpg)
+![screenshot3](https://gitlab.com/SobolevES/devops-netology/-/blob/main/pics/HISTSIZE.jpg)
 
 8.2.
 >>что делает директива ignoreboth в bash?
@@ -35,7 +36,7 @@ HISTFILESIZE=2000
  Сочетает в себе две опции:  
     ignorespace (строки/команды, которые начинаются с пробела не попадают в history) и 
     ignoredups (дублирующиеся подряд строки/команды не записываются в history)  
-![screenshot4](pics/ignoreboth.jpg)
+![screenshot4](https://gitlab.com/SobolevES/devops-netology/-/blob/main/pics/ignoreboth.jpg)
 
 
 9. 
@@ -75,7 +76,7 @@ HISTFILESIZE=2000
 Условное выражение, если tmp существует и является директорией, то true, иначе false  
    прочитал тут:  
 man bash | grep "CONDITIONAL EXPRESSIONS"  
-![screenshot5](pics/11.jpg)
+![screenshot5](https://gitlab.com/SobolevES/devops-netology/-/blob/main/pics/11.jpg)
 
 
 12.
@@ -102,7 +103,7 @@ bash is /tmp/new_path_directory/bash
 bash is /usr/local/bin/bash  
 bash is /bin/bash  
 bash is /usr/bin/bash  
-![screenshot6](pics/12.jpg)  
+![screenshot6](https://gitlab.com/SobolevES/devops-netology/-/blob/main/pics/12.jpg)  
 
 
 13. 
