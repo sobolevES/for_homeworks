@@ -41,7 +41,7 @@ vagrant@ubuntu-devops5:~$ tty
 /dev/pts/1  
 vagrant@ubuntu-devops5:~$ ls: cannot access '%%%': No such file or directory
 
-![Screenshot](pics/4_terminal2.jpg)
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/4_terminal2.JPG)
 
 
 > ####5. Получится ли одновременно передать команде файл на stdin и вывести ее stdout в другой файл? Приведите работающий пример.
@@ -55,14 +55,14 @@ vagrant@ubuntu-devops5:~$ cat file_2
 14:-rw-rw-r-- 1 vagrant vagrant       0 Jan 30 16:53 file_2  
 20:-rw-r--r-- 1 vagrant vagrant     807 Dec 23 07:52 .profile  
 
-![Screenshot](pics/5_terminal2.jpg)
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/5_terminal2.JPG)
 
 > ####6. Получится ли вывести находясь в графическом режиме данные из PTY в какой-либо из эмуляторов TTY? Сможете ли вы наблюдать выводимые данные?
 
-![Screenshot](pics/6.1_terminal.jpg)  
-![Screenshot](pics/6.2_terminal.jpg)
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/6.1_terminal.JPG)  
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/6.2_terminal.JPG)
 
-> ####7.Выполните команду bash 5>&1. К чему она приведет?
+> ####7.Выполните команду bash 5>&1. К чему она приведет?  
 
 
 Мы создали новый файловый дескриптор 5 для баша и перенаправляем поток ввода-вывода на stdout(1).
@@ -85,7 +85,7 @@ vagrant@ubuntu-devops5:~$ ls %%% log_ls 2>&1 1>&5 | grep -n "cannot access"
 log_ls  
 1:ls: cannot access '%%%': No such file or directory
 
-![Screenshot](pics/8_terminal2.jpg)
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/8_terminal2.JPG)
 
 Вывели stdout на 5 дескриптор, а stderr передали в stdin через пайп для грепа.
 
@@ -137,13 +137,14 @@ vagrant@ubuntu-devops5:~$ ssh -t localhost tty "$(<while.sh)"
 vagrant@localhost's password:  
 /dev/pts/4  
 1   2   6_hw   echo   file_1   file_2   for_test   log_ls   nohup.out   stderr.log   stdout.log   test_dir  'test test test'   while.sh  
-ls: cannot access '%': No such file or directory
+ls: cannot access '%': No such file or directory  
 
 
 >####13.Бывает, что есть необходимость переместить запущенный процесс из одной сессии в другую. Попробуйте сделать это, воспользовавшись reptyr.  
 >####Например, так можно перенести в screen процесс, который вы запустили по ошибке в обычной SSH-сессии.
 
-![Screenshot](pics/13_terminal2.jpg)
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/13_terminal2.JPG)
+
 
 >####14. sudo echo string > /root/new_file не даст выполнить перенаправление под обычным пользователем, так как перенаправлением занимается процесс shell'а,  
 >####который запущен без sudo под вашим пользователем. Для решения данной проблемы можно использовать конструкцию echo string | sudo tee /root/new_file.   
