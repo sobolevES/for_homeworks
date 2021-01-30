@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdf7cea9-3105-4729-98f6-607c1e2e08fa" name="Default Changelist" comment="add_file_for_homeWork4">
-      <change afterPath="$PROJECT_DIR$/homeworks/hw_terminal1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/11.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/12.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/5.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/HISTFILE&amp;HISTFILESIZE.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/HISTSIZE.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/ignoreboth.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +50,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -232,7 +225,35 @@
       <option name="project" value="LOCAL" />
       <updated>1610694314529</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="hw_terminal1">
+      <created>1611576618830</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1611576618830</updated>
+    </task>
+    <task id="LOCAL-00020" summary="hw_terminal1_edit">
+      <created>1611577044505</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1611577044505</updated>
+    </task>
+    <task id="LOCAL-00021" summary="hw_terminal1_edit">
+      <created>1611579034368</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1611579034368</updated>
+    </task>
+    <task id="LOCAL-00022" summary="hw_terminal1_edit2">
+      <created>1611579958911</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1611579958911</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,6 +314,9 @@
     <MESSAGE value="Revert &quot;commit_from_IDE&quot;&#10;This reverts commit 51e06929" />
     <MESSAGE value="homeWork5" />
     <MESSAGE value="homeWork5_edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="homeWork5_edit" />
+    <MESSAGE value="hw_terminal1" />
+    <MESSAGE value="hw_terminal1_edit" />
+    <MESSAGE value="hw_terminal1_edit2" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw_terminal1_edit2" />
   </component>
 </project>
