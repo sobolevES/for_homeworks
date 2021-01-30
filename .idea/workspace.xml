@@ -13,6 +13,13 @@
     <excluded-from-favorite>
       <branch-storage>
         <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/terraform/terra_hw5" source="master" />
+              </list>
+            </value>
+          </entry>
           <entry type="REMOTE">
             <value>
               <list>
@@ -253,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611579958911</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="hw_terminal2">
+      <created>1612030528366</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1612030528366</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,6 +331,7 @@
     <MESSAGE value="hw_terminal1" />
     <MESSAGE value="hw_terminal1_edit" />
     <MESSAGE value="hw_terminal1_edit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw_terminal1_edit2" />
+    <MESSAGE value="hw_terminal2" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw_terminal2" />
   </component>
 </project>
