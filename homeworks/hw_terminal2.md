@@ -62,7 +62,7 @@ vagrant@ubuntu-devops5:~$ cat file_2
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/6.1_terminal.JPG)  
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/6.2_terminal.JPG)
 
-> ####7.Выполните команду bash 5>&1. К чему она приведет?
+> ####7.Выполните команду bash 5>&1. К чему она приведет?  
 
 
 Мы создали новый файловый дескриптор 5 для баша и перенаправляем поток ввода-вывода на stdout(1).

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdf7cea9-3105-4729-98f6-607c1e2e08fa" name="Default Changelist" comment="add_file_for_homeWork4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/hw_terminal2.md" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/hw_terminal2.md" afterDir="false" />
-    </list>
+    <list default="true" id="bdf7cea9-3105-4729-98f6-607c1e2e08fa" name="Default Changelist" comment="add_file_for_homeWork4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -283,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612034872620</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="hw_terminal2_edit3">
+      <created>1612035162779</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1612035162779</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +301,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="gitlab/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
