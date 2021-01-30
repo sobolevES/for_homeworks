@@ -137,7 +137,7 @@ vagrant@ubuntu-devops5:~$ ssh -t localhost tty "$(<while.sh)"
 vagrant@localhost's password:  
 /dev/pts/4  
 1   2   6_hw   echo   file_1   file_2   for_test   log_ls   nohup.out   stderr.log   stdout.log   test_dir  'test test test'   while.sh  
-ls: cannot access '%': No such file or directory
+ls: cannot access '%': No such file or directory  
 
 
 >####13.Бывает, что есть необходимость переместить запущенный процесс из одной сессии в другую. Попробуйте сделать это, воспользовавшись reptyr.  
