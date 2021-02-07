@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdf7cea9-3105-4729-98f6-607c1e2e08fa" name="Default Changelist" comment="add_file_for_homeWork4" />
+    <list default="true" id="bdf7cea9-3105-4729-98f6-607c1e2e08fa" name="Default Changelist" comment="add_file_for_homeWork4">
+      <change beforePath="$PROJECT_DIR$/homeworks/hw_os1.md" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/hw_os1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/6_OS1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/pics/6_OS1.JPG" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -301,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612671160656</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="hw_os1_edit1">
+      <created>1612674446673</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1612674446673</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -370,6 +380,7 @@
     <MESSAGE value="hw_terminal2_edit3" />
     <MESSAGE value="hw_terminal2_edit4" />
     <MESSAGE value="add_pictures_for_hw.os1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_pictures_for_hw.os1" />
+    <MESSAGE value="hw_os1_edit1" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw_os1_edit1" />
   </component>
 </project>
