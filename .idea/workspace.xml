@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdf7cea9-3105-4729-98f6-607c1e2e08fa" name="Default Changelist" comment="add_file_for_homeWork4">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_01_2021_19_51_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_01_2021_19_51__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/hw_os1.md" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/hw_os1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,18 +13,10 @@
     <excluded-from-favorite>
       <branch-storage>
         <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$/terraform/terra_hw5" source="master" />
-              </list>
-            </value>
-          </entry>
           <entry type="REMOTE">
             <value>
               <list>
                 <branch-info repo="$PROJECT_DIR$" source="origin/master" />
-                <branch-info repo="$PROJECT_DIR$/terraform/terra_hw5" source="origin/master" />
               </list>
             </value>
           </entry>
@@ -268,49 +253,7 @@
       <option name="project" value="LOCAL" />
       <updated>1611579958911</updated>
     </task>
-    <task id="LOCAL-00023" summary="hw_terminal2">
-      <created>1612030528366</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1612030528366</updated>
-    </task>
-    <task id="LOCAL-00024" summary="hw_terminal2_edit2">
-      <created>1612033030907</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1612033030907</updated>
-    </task>
-    <task id="LOCAL-00025" summary="hw_terminal2_edit3">
-      <created>1612034872620</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1612034872620</updated>
-    </task>
-    <task id="LOCAL-00026" summary="hw_terminal2_edit3">
-      <created>1612035162779</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1612035162779</updated>
-    </task>
-    <task id="LOCAL-00027" summary="hw_terminal2_edit4">
-      <created>1612035713405</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1612035713405</updated>
-    </task>
-    <task id="LOCAL-00028" summary="add_pictures_for_hw.os1">
-      <created>1612671160656</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1612671160656</updated>
-    </task>
-    <option name="localTasksCounter" value="29" />
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,7 +267,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="gitlab/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -374,11 +317,6 @@
     <MESSAGE value="hw_terminal1" />
     <MESSAGE value="hw_terminal1_edit" />
     <MESSAGE value="hw_terminal1_edit2" />
-    <MESSAGE value="hw_terminal2" />
-    <MESSAGE value="hw_terminal2_edit2" />
-    <MESSAGE value="hw_terminal2_edit3" />
-    <MESSAGE value="hw_terminal2_edit4" />
-    <MESSAGE value="add_pictures_for_hw.os1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_pictures_for_hw.os1" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw_terminal1_edit2" />
   </component>
 </project>
