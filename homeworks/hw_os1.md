@@ -64,14 +64,14 @@
   
    Параметр `set -e` указывает bash немедленно выйти, если какая-либо команда имеет ненулевой статус выхода.
    Благодаря set'у мы намеренно вызываем сбой выполнения скрипта/команды, чтобы избежать этих ошибок в дальнейшей эксплуатации.  
-
+  
 Смысл конечно же есть, т.к. `set` имеет расширенный функционал, нежели оператор `&&`.  
 Но если составить набор простых команд через `&&` и `set -e`; то получим одинаковый результат.  
 `vagrant@ubuntu-devops5:~$ (false && echo "ненулевой" ) && [ $? -eq 0 ] || echo "нулевой"`  
 `нулевой`  
 `vagrant@ubuntu-devops5:~$ (set -e; false && echo "ненулевой" ) && [ $? -eq 0 ] || echo "нулевой"`  
 `нулевой`  
-Но как только мы начнем усложнять конструкции, будем
+Но как только мы начнем усложнять конструкции, будем  
 прописывать условия в подоболочке оболочки, использовать исключения, дебажить, а еще и в придачу различные ключи set'a, то конечно чистым оператором &&
 не обойтись.  
  
@@ -80,47 +80,47 @@
 
 8. >Из каких опций состоит режим bash set -euxo pipefail и почему его хорошо было бы использовать в сценариях?  
   
-выдержки из man bash по set'y:  
+**выдержки из man bash по set'y:**  
   
--e      Exit immediately if a pipeline (which may consist of a single simple command), a list, or a compound command (see SHELL GRAMMAR above), exits
+*-e      Exit immediately if a pipeline (which may consist of a single simple command), a list, or a compound command (see SHELL GRAMMAR above), exits
 with a non-zero status.  The shell does not exit if the command that fails is part of the command list immediately following a while or until
 keyword, part of the test following the if or elif reserved words, part of any command executed in a && or || list except the command follow‐
 ing the final && or ||, any command in a pipeline but the last, or if the command's return value is being inverted with  !.   If  a  compound
 command other than a subshell returns a non-zero status because a command failed while -e was being ignored, the shell does not exit.  A trap
 on ERR, if set, is executed before the shell exits.  This option applies to the shell environment and each  subshell  environment  separately
-(see COMMAND EXECUTION ENVIRONMENT above), and may cause subshells to exit before executing all the commands in the subshell.
+(see COMMAND EXECUTION ENVIRONMENT above), and may cause subshells to exit before executing all the commands in the subshell.*  
+  
+ If  a  compound  command or shell function executes in a context where -e is being ignored, none of the commands executed within the compound
+command or function body will be affected by the -e setting, even if -e is set and a command returns a failure status.  If a compound command
+or  shell function sets -e while executing in a context where -e is ignored, that setting will not have any effect until the compound command 
+  or the command containing the function call completes.
 
-                      If  a  compound  command or shell function executes in a context where -e is being ignored, none of the commands executed within the compound
-                      command or function body will be affected by the -e setting, even if -e is set and a command returns a failure status.  If a compound command
-                      or  shell function sets -e while executing in a context where -e is ignored, that setting will not have any effect until the compound command
-                      or the command containing the function call completes.____
+**указываем bash немедленно выйти, если какая-либо команда имеет ненулевой статус выхода. Подробнее написал в 7 задании.**
+  
+*-u      Treat  unset  variables and parameters other than the special parameters "`@`" and "`*`" as an error when performing parameter expansion.  If ex‐
+pansion is attempted on an unset variable or parameter, the shell prints an error message, and, if not interactive,  exits  with  a  non-zero*
+status*  
+  
+**Проверяем установлены ли ссылки на любые переменные, которые ранее не объявили, кроме "@" and "`*`".**  
+  
+*-x      After expanding each simple command, for command, case command, select command, or arithmetic for command, display the expanded value of PS4,
+followed by the command and its expanded arguments or associated word list.*
+  
+**Будет выводить на экран этапы выполнения команд. Видимо удобно при траблшутинге.**  
 
-*указываем bash немедленно выйти, если какая-либо команда имеет ненулевой статус выхода. Подробнее написал в 7 задании.
-  
--u      Treat  unset  variables and parameters other than the special parameters "@" and "*" as an error when performing parameter expansion.  If ex‐
-pansion is attempted on an unset variable or parameter, the shell prints an error message, and, if not interactive,  exits  with  a  non-zero
-status  
-  
-*Проверяем установлены ли ссылки на любые переменные, которые ранее не объявили, кроме "@" and "*".  
-  
--x      After expanding each simple command, for command, case command, select command, or arithmetic for command, display the expanded value of PS4,
-followed by the command and its expanded arguments or associated word list.
-  
-*будет выводить на экран этапы выполнения команд. Видимо удобно при траблшутинге.  
-
--o option-name  тут и выбираем опцию pipefail  
+*-o option-name  тут и выбираем опцию pipefail  
 If set, the return value of a pipeline is the value of the last (rightmost) command to exit with a non-zero status, or  zero  if  all
-commands in the pipeline exit successfully.  This option is disabled by default.  
+commands in the pipeline exit successfully.  This option is disabled by default.*  
   
-*Этот параметр предотвращает маскировку ошибок в конвейере. Если какая-либо команда в конвейере фейлится, то код ошибки будет использоваться как код ошибки всего конвейера.
-По умолчанию код возврата конвейера - это код последней команды, даже если она выполнена успешно.
+**Этот параметр предотвращает маскировку ошибок в конвейере. Если какая-либо команда в конвейере фейлится, то код ошибки будет использоваться как код ошибки всего конвейера.
+По умолчанию код возврата конвейера - это код последней команды, даже если она выполнена успешно.**  
   
-Итог: отловили ошибки, проверили необъявленные переменные, вывели все этапы выполнения команды, не забыли про конвейер, что он тоже может шалить.  
+**Итог: отловили ошибки, проверили необъявленные переменные, вывели все этапы выполнения команды, не забыли про конвейер, что он тоже может шалить.**  
   
 9. >Используя `-o stat` для `ps`, определите, какой наиболее часто встречающийся статус у процессов в системе. В `man ps` ознакомьтесь (`/PROCESS STATE CODES`) что значат дополнительные к основной заглавной буквы статуса процессов. Его можно не учитывать при расчете (считать S, Ss или Ssl равнозначными).  
-
+  
 Понимаю, что список будет не статичный, но на момент выполнения у меня так:  
-![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/9_OS1.JPG)
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/9_OS1.JPG)  
 Ss  Спят, пока не закончится выполнение процесса. s - я так понимаю типо родитель, верхнеуровневая сессия.  
 T   Остановленные процессы  
 R+  запущенные топчики  
