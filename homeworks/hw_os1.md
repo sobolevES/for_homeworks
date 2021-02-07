@@ -107,7 +107,7 @@ status*
 followed by the command and its expanded arguments or associated word list.*
   
 **Будет выводить на экран этапы выполнения команд. Видимо удобно при траблшутинге.**  
-
+  
 *-o option-name  тут и выбираем опцию pipefail  
 If set, the return value of a pipeline is the value of the last (rightmost) command to exit with a non-zero status, or  zero  if  all
 commands in the pipeline exit successfully.  This option is disabled by default.*  
