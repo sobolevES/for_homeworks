@@ -331,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613672111385</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="hw_net1">
+      <created>1614078330134</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1614078330134</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,7 +386,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit_from_IDE" />
     <MESSAGE value="commit_from_IDE_v2" />
     <MESSAGE value="commit_from_IDE_v3" />
     <MESSAGE value="commit_from_IDE_v4" />
@@ -404,6 +410,7 @@
     <MESSAGE value="hw_os1_edit2" />
     <MESSAGE value="hw_os2" />
     <MESSAGE value="hw_file.systems" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw_file.systems" />
+    <MESSAGE value="hw_net1" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw_net1" />
   </component>
 </project>
