@@ -164,7 +164,7 @@ connect_timeout 3
 
 нарисовал схемку вот такую. Визуально вроде все логично, по-моему мнению :)
 
-![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3_net3.JPG)
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3_net3.JPEG)
 
 Я думаю, что для супер-отказоустойчивого кластера нужно в DNS зарегать два VIP, на схеме они `192.168.1.99` и `192.168.1.98`.  
 Keepalived будет одновременно работать как Мастер , так и бэкап. Если один из VIP упадет, он переедет на соседний сервак.  
