@@ -352,7 +352,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614782885094</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="hw_net3_edit1">
+      <created>1614783319246</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1614783319247</updated>
+    </task>
+    <task id="LOCAL-00037" summary="hw_net3_edit2">
+      <created>1614783527358</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1614783527358</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,8 +414,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit_from_IDE_v4" />
-    <MESSAGE value="commit_from_IDE_v5" />
     <MESSAGE value="add_file_for_homeWork4" />
     <MESSAGE value="test_commit" />
     <MESSAGE value="test_commit_for_h4" />
@@ -425,6 +437,8 @@
     <MESSAGE value="hw_net1" />
     <MESSAGE value="hw_net2" />
     <MESSAGE value="hw_net3" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw_net3" />
+    <MESSAGE value="hw_net3_edit1" />
+    <MESSAGE value="hw_net3_edit2" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw_net3_edit2" />
   </component>
 </project>
