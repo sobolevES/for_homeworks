@@ -52,22 +52,22 @@
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/5.5_security.JPG)
 
 Создал юнит для консула  
-[Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/5.7_security.JPG)
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/5.7_security.JPG)
 
 Ну и старт демона
 
-[Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/5.4_security.JPG)
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/5.4_security.JPG)
 
 Результат вот такой
 
 Корневой орет конечно, надо было его в доверенные на лок машину закинуть  
-[Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/5.2_security.JPG)
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/5.2_security.JPG)
 
-[Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/5.3_security.JPG)
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/5.3_security.JPG)
 
 6. >Модифицировав `/etc/hosts` и системный `trust-store`, добейтесь безошибочной с точки зрения `HTTPS` работы `curl` на ваш тестовый домен (отдающийся с `localhost`). Рекомендуется добавлять в доверенные сертификаты `Intermediate CA`. `Root CA` добавить было бы правильнее, но тогда при конфигурации `nginx` потребуется включить в цепочку `Intermediate`, что выходит за рамки лекции. Так же, пожалуйста, не добавляйте в доверенные сам сертификат хоста.
 
-[Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/6_security.JPG)
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/6_security.JPG)
 
 7. >Ознакомьтесь с протоколом `ACME` и `CA Let's encrypt`. Если у вас есть во владении доменное имя с платным TLS-сертификатом, который возможно заменить на LE, или же без HTTPS вообще, попробуйте воспользоваться одним из предложенных клиентов, чтобы сделать веб-сайт безопасным (или перестать платить за коммерческий сертификат).
 
