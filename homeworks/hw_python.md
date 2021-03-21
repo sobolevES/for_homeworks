@@ -70,8 +70,9 @@ for hostname, value in hostnames.items():
             print(f'{hostname}:  IP {value} в словаре и последний полученный {ip} НЕ_СОВПАДАЮТ, надо апдейтить')
             hostnames[hostname] = ip
     except socket.gaierror as e:
-        print(f'{hostname} >> Не резолвится {e}')
-print(f'TEST, что все заапдейтилось {hostnames}')
+        hostnames[hostname] = None
+        print(f'[ERROR] {hostname} >> Не резолвится {e}')
+print(f'DICT update >>> {hostnames}')
 ```
 
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/4_python.JPG)  
