@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bdf7cea9-3105-4729-98f6-607c1e2e08fa" name="Default Changelist" comment="add_file_for_homeWork4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/hw_python.md" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/hw_python.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get.py" beforeDir="false" afterPath="$PROJECT_DIR$/get.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616124429535</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="hw_python_edit1">
+      <created>1616125253723</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1616125253723</updated>
+    </task>
+    <task id="LOCAL-00044" summary="hw_python_edit2">
+      <created>1616343257898</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1616343257898</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -450,8 +464,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Revert &quot;commit_from_IDE&quot;&#10;This reverts commit 51e06929" />
-    <MESSAGE value="homeWork5" />
     <MESSAGE value="homeWork5_edit" />
     <MESSAGE value="hw_terminal1" />
     <MESSAGE value="hw_terminal1_edit" />
@@ -475,6 +487,8 @@
     <MESSAGE value="hw_bash" />
     <MESSAGE value="hw_bash_edit1" />
     <MESSAGE value="hw_python" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw_python" />
+    <MESSAGE value="hw_python_edit1" />
+    <MESSAGE value="hw_python_edit2" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw_python_edit2" />
   </component>
 </project>
