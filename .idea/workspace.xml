@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdf7cea9-3105-4729-98f6-607c1e2e08fa" name="Default Changelist" comment="add_file_for_homeWork4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get.py" beforeDir="false" afterPath="$PROJECT_DIR$/get.py" afterDir="false" />
-    </list>
+    <list default="true" id="bdf7cea9-3105-4729-98f6-607c1e2e08fa" name="Default Changelist" comment="add_file_for_homeWork4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -416,7 +413,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616343257898</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="hw_json-yml">
+      <created>1616426138808</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1616426138808</updated>
+    </task>
+    <task id="LOCAL-00046" summary="hw_virt_basics">
+      <created>1617107076477</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1617107076477</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -464,8 +475,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="homeWork5_edit" />
-    <MESSAGE value="hw_terminal1" />
     <MESSAGE value="hw_terminal1_edit" />
     <MESSAGE value="hw_terminal1_edit2" />
     <MESSAGE value="hw_terminal2" />
@@ -489,6 +498,8 @@
     <MESSAGE value="hw_python" />
     <MESSAGE value="hw_python_edit1" />
     <MESSAGE value="hw_python_edit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw_python_edit2" />
+    <MESSAGE value="hw_json-yml" />
+    <MESSAGE value="hw_virt_basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw_virt_basics" />
   </component>
 </project>
