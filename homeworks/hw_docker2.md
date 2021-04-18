@@ -29,7 +29,7 @@ WORKDIR /pkg
 ENTRYPOINT ["/usr/bin/ponysay"]
 CMD ["Hey, netology”]
 ```
-![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/1_python2.JPG)  
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/1_docker2.JPG)  
   
 https://hub.docker.com/repository/docker/soboleves/arch.ponysay  
 
@@ -64,6 +64,7 @@ ENTRYPOINT ["/bin/bash"]
 ```
   
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/2.1_docker2.JPG)  
+  
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/2.2_docker2.JPG)  
   
 https://hub.docker.com/repository/docker/soboleves/ubuntu.jenkins  
@@ -87,6 +88,7 @@ ENTRYPOINT ["/bin/bash"]
 ```
   
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/2.3_docker2.JPG)  
+  
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/2.4_docker2.JPG)  
   
 https://hub.docker.com/repository/docker/soboleves/amazoncorretto.jenkins  
@@ -121,5 +123,6 @@ CMD ["node","server.js"]
 ```
 
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3_docker2.JPG)  
+  
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3.1_docker2.JPG)  
 
