@@ -33,8 +33,52 @@ CMD ["Hey, netology”]
   
 https://hub.docker.com/repository/docker/soboleves/arch.ponysay  
 
+###################################################################  
+###########################   Доработка  -#############################  
+###################################################################  
 
+На самом деле у меня не было ошибок ни при билде образа, ни при старте контейнера, ну ок.
+  
+Прочитал про этот баг и как его можно пофиксить  тут:  
+https://github.com/qutebrowser/qutebrowser/commit/478e4de7bd1f26bebdcdc166d5369b2b5142c3e2  
+  
+пересобрал образ, поднял контейнер с новым конфигом  
+ 
+``` 
+FROM archlinux:latest
 
+RUN useradd -m notroot
+
+RUN patched_glibc=glibc-linux4-2.33-4-x86_64.pkg.tar.zst && \
+    curl -LO "https://repo.archlinuxcn.org/x86_64/$patched_glibc" && \
+    bsdtar -C / -xvf "$patched_glibc"
+
+RUN pacman -Syy --noconfirm && \
+    pacman -Sy --noconfirm git base-devel && \
+    pacman -Syu --noconfirm && \
+    pacman -Sy --noconfirm ponysay
+
+RUN echo "notroot ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/notroot
+
+USER notroot
+WORKDIR /home/notroot
+
+RUN git clone https://aur.archlinux.org/yay-git && \
+    cd yay-git && \
+    makepkg --noconfirm --syncdeps --rmdeps --install
+
+WORKDIR /pkg
+ENTRYPOINT ["/usr/bin/ponysay"]
+CMD ["Hey, netology”]
+```
+  
+v4
+https://hub.docker.com/repository/docker/soboleves/arch.ponysay
+ 
+###################################################################  
+###################################################################  
+################################################################### 
+  
 2. >В данной задаче вы составите несколько разных `Dockerfile` для проекта `Jenkins`, опубликуем образ в `dockerhub.io` и посмотрим логи этих контейнеров.  
    Для получения зачета, вам необходимо предоставить:  
 -Наполнения 2х `Dockerfile` из задания  
@@ -93,7 +137,56 @@ ENTRYPOINT ["/bin/bash"]
   
 https://hub.docker.com/repository/docker/soboleves/amazoncorretto.jenkins  
 
+###################################################################  
+###########################   Доработка  -#############################  
+###################################################################  
 
+поднимаю контейнер так:  
+docker run -itd --name <имя_контейнера> -p 8080:8080 <имя_образа>   
+
+ver2  
+https://hub.docker.com/repository/docker/soboleves/amazoncorretto.jenkins  
+
+```
+FROM amazoncorretto
+
+RUN yum update && yum install -y git wget initscripts
+
+RUN wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins.io/redhat-stable/jenkins.repo
+
+RUN rpm --import http://pkg.jenkins.io/redhat-stable/jenkins.io.key
+
+RUN yum update && yum install jenkins -y
+
+EXPOSE 8080
+
+ENTRYPOINT ["/bin/sh", "-c", "/etc/init.d/jenkins start && /bin/bash"]
+```
+  
+  
+ver3  
+https://hub.docker.com/repository/docker/soboleves/ubuntu.jenkins
+
+```
+FROM ubuntu:latest
+
+RUN apt-get update && \
+    apt install -y openjdk-11-jdk openjdk-11-jre
+
+RUN apt install -y wget gnupg2 git && \
+    wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | apt-key add - && \
+    sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+
+RUN apt-get update && \
+    apt-get install -y jenkins
+
+EXPOSE 8080
+
+ENTRYPOINT ["/bin/sh", "-c", "service jenkins start && /bin/bash"]
+```
+###################################################################  
+###################################################################  
+###################################################################  
 
 3. >В данном задании вы научитесь:  
 -объединять контейнеры в единую сеть  
