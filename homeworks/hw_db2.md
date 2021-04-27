@@ -64,9 +64,9 @@ services:
  --результаты их выполнения.  
   
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3.1_db2.JPG)  
-  ###################################################
+  ###################################################  
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3.2_db2.JPG)  
-  ###################################################
+  ###################################################  
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3.3_db2.JPG)  
   ###################################################  
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3.4_db2.JPG)  
