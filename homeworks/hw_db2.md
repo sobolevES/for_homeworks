@@ -9,8 +9,8 @@ services:
     image: postgres:12
     restart: always
     environment:
-      - POSTGRES_PASSWORD=postgres
-      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_USER=root
       - POSTGRES_DB=stage
     volumes:
       - ./volume1/data:/var/lib/postgresql/volume1/data
@@ -42,17 +42,17 @@ services:
 
   
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/2.1_db2.JPG)  
-  
+  ###################################################  
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/2.2_db2.JPG)  
-  
+  ###################################################  
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/2.3_db2.JPG)  
-  
+  ###################################################  
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/2.4_db2.JPG)  
-  
+  ###################################################  
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/2.5_db2.JPG)  
-  
+  ###################################################  
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/2.6_db2.JPG)  
-  
+  ###################################################  
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/2.7_db2.JPG)  
   
 
@@ -64,20 +64,20 @@ services:
  --результаты их выполнения.  
   
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3.1_db2.JPG)  
-  
+  ###################################################
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3.2_db2.JPG)  
-  
+  ###################################################
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3.3_db2.JPG)  
-  
+  ###################################################  
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3.4_db2.JPG)  
-  
+  ###################################################  
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3.5_db2.JPG)  
   
 4. >Часть пользователей из таблицы clients решили оформить заказы из таблицы orders.
 Используя foreign keys свяжите записи из таблиц, согласно таблице:
   
 Тут я понял, что для работы с внешним ключом мне нужна еще одна колонка, по которой я смогу связывать таблицы, т.к. по наименованию - это плохая практика, однофамильцы, регистр и т.п.
-по id одной таблицы c id другой тоже не вариант, т.к. это значения абсолютно разные и отвечают исключительно за порядок записи своей таблицы
+по id одной таблицы c id другой тоже как то мне показалось не очень   
   
 создал колонку id_zakaz, и связал ее с колонкой id ордерс.
   
@@ -126,7 +126,7 @@ pg_restore -d test_db -U root /var/lib/postgresql/volume2/backup/test_db3.dump
 pg_restore: warning: errors ignored on restore  
   
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/6.5_db2.JPG)  
-  
+  ###################################################    
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/6.6_db2.JPG)  
 
 
