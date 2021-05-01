@@ -18,7 +18,7 @@ mysql -u root -p test_mysql
   
 ![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/1.1_db3.JPG)  
   
-![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/1.2_db2.JPG)  
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/1.2_db3.JPG)  
   
 2. >Создайте пользователя `test` в БД c паролем `test-pass`, используя:  
 -плагин авторизации `mysql_native_password`  
