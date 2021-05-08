@@ -41,9 +41,9 @@
   
 Если применить декларативный подход (PARTITION), то так:  
   
-![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3.4_db4.JPG)  
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3.3_db4.JPG)  
   
-![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3.5_db4.JPG)   
+![Screenshot](https://gitlab.com/SobolevES/devops-netology/-/raw/main/pics/3.4_db4.JPG)   
   
 Возможно правильным решением на начальной стадии было бы:   
 1. Включить Секционирование для таблицы  
