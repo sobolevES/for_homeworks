@@ -23,7 +23,7 @@ db.adminCommand(
 )
 ```
   
-у изнав  <opid> убить ее:  
+и узнав `<opid>` убить ее:  
 **db.killOp()**  
 `db.adminCommand( { "killOp": 1, "op": <opid> } )`  
   
