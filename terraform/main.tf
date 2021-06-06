@@ -1,8 +1,74 @@
 provider "aws" {
-  profile = "default"
-  region = "us-east-2"
-  alias = "region"
+    region = "us-east-2"
 }
+
+resource "aws_s3_bucket" "terraform_state" {
+    bucket = "terraform-state-devops5"
+
+    # Защита от случайного удаления S3 bucket
+    # Даже командой terraform destroy невозможно будет удалить эту корзину
+    # Если потребуется ее удалить, то просто закомментируйте эти строки
+    lifecycle {
+        prevent_destroy = true
+       }
+
+    versioning {
+        enabled = true
+    }
+    
+    # Включить шифрование на стороне Amazon
+       server_side_encryption_configuration {
+        rule {
+            apply_server_side_encryption_by_default {
+            sse_algorithm = "AES256"
+            }
+        }
+    }
+}
+
+//locals {
+//  devops5-test-bucket_acl_map = {
+//    stage = "private"
+//    prod = "public"
+//  }
+//  devops5-test-bucket_acl = devops5-test-bucket_acl_map[terraform.workspace]
+//}
+
+
+
+resource "aws_dynamodb_table" "terraform_locks" {
+    name = "terraform-state-locks-devops5"
+    billing_mode = "PAY_PER_REQUEST"
+    hash_key = "LockID"
+    
+    attribute {
+        name = "LockID"
+        type = "S"
+    }
+}
+
+
+
+locals {
+  web_instance_type_map = {
+    stage = "t3.micro"
+    prod = "t3.large"
+  }
+}
+
+locals {
+  web_instance_count_map = {
+    stage = 1
+    prod  = 2
+  }
+}
+
+//locals {
+//  instances = {
+//    "t3.micro" = data.aws_ami.ubuntu.id
+//    "t3.large" = data.aws_ami.ubuntu.id
+//  }
+//}
 
 data "aws_ami" "ubuntu" {
   most_recent = true
@@ -20,63 +86,26 @@ filter {
   owners = ["099720109477"]
 }
 
-resource "aws_s3_bucket" "tst_bucket" {
-  bucket = "devops5-test-bucket"
-  acl = "private"
-}
-
 resource "aws_instance" "web" {
   ami           = data.aws_ami.ubuntu.id
-  instance_type = "t3.micro"
+  instance_type = local.web_instance_type_map[terraform.workspace]
+  count = local.web_instance_count_map[terraform.workspace]
 
   tags = {
-    Name = "appServInstance"
+    Name = "appServInstance-devops5"
+  }
+  lifecycle {
+    create_before_destroy = true
   }
 }
 
-resource "aws_vpc" "my_vpc" {
-  cidr_block = "172.16.0.0/16"
-  instance_tenancy                    = "default"
-  enable_dns_support                  = "true"
-  enable_dns_hostnames                = "true"
-  assign_generated_ipv6_cidr_block    = "false"
-  tags = {
-    Name = "my_vpc"
-  }
-}
-
-resource "aws_subnet" "my_subnet" {
-  vpc_id            = aws_vpc.my_vpc.id
-  cidr_block        = "172.16.10.0/24"
-  availability_zone = "us-west-2a"
-
-  tags = {
-    Name = "tf-my_subnet"
-  }
-}
-
-resource "aws_network_interface" "foo" {
-  subnet_id   = aws_subnet.my_subnet.id
-  private_ips = ["172.16.10.100"]
-
-  tags = {
-    Name = "primary_network_interface"
-  }
-}
-
-resource "aws_instance" "foo" {
-  ami           = "ami-005e54dee72cc1d00" # us-west-2
-  instance_type = "t2.micro"
-
-  network_interface {
-    network_interface_id = aws_network_interface.foo.id
-    device_index         = 0
-  }
-
-  credit_specification {
-    cpu_credits = "unlimited"
-  }
-}
-
-
-
+//
+//resource "aws_instance" "web2" {
+//  for_each = local.instances
+//  ami           = each.value
+//  instance_type = each.key
+//
+//  tags = {
+//    Name = "appServInstance2"
+//  }
+//}

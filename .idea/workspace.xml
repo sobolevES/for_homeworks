@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdf7cea9-3105-4729-98f6-607c1e2e08fa" name="Default Changelist" comment="add_file_for_homeWork4" />
+    <list default="true" id="bdf7cea9-3105-4729-98f6-607c1e2e08fa" name="Default Changelist" comment="add_file_for_homeWork4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get.py" beforeDir="false" afterPath="$PROJECT_DIR$/get.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/hw5.md" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/hw5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/output.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/output.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/versions.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/versions.tf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +101,39 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/terraform" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\repo\devops-netology\terraform" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\repo\devops-netology\homeworks" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Plan directory terraform" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform Plan" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="plan" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="workingDirectory" value="F:\repo\devops-netology\terraform" />
+      <option name="PROGRAM_PARAMETERS" value="plan" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/terraform" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Terraform.Plan directory terraform" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -104,132 +143,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608812941061</updated>
-    </task>
-    <task id="LOCAL-00001" summary="commit_from_IDE">
-      <created>1608813127058</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1608813127058</updated>
-    </task>
-    <task id="LOCAL-00002" summary="commit_from_IDE_v2">
-      <created>1608813192777</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1608813192777</updated>
-    </task>
-    <task id="LOCAL-00003" summary="commit_from_IDE_v2">
-      <created>1608813880134</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1608813880134</updated>
-    </task>
-    <task id="LOCAL-00004" summary="commit_from_IDE_v2">
-      <created>1608813971139</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1608813971139</updated>
-    </task>
-    <task id="LOCAL-00005" summary="commit_from_IDE_v3">
-      <created>1608814763724</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1608814763724</updated>
-    </task>
-    <task id="LOCAL-00006" summary="commit_from_IDE_v4">
-      <created>1608815220916</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1608815220916</updated>
-    </task>
-    <task id="LOCAL-00007" summary="commit_from_IDE_v5">
-      <created>1608815672532</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1608815672532</updated>
-    </task>
-    <task id="LOCAL-00008" summary="add_file_for_homeWork4">
-      <created>1608816659857</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1608816659857</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add_file_for_homeWork4">
-      <created>1608817124439</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1608817124439</updated>
-    </task>
-    <task id="LOCAL-00010" summary="test_commit">
-      <created>1608817464948</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1608817464948</updated>
-    </task>
-    <task id="LOCAL-00011" summary="test_commit_for_h4">
-      <created>1608817536227</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1608817536227</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Revert &quot;1st commit&quot;&#10;This reverts commit 68bf338e">
-      <created>1608828374073</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1608828374073</updated>
-    </task>
-    <task id="LOCAL-00013" summary="commit_from_IDE_">
-      <created>1608870157248</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1608870157248</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Revert &quot;commit_from_IDE&quot;&#10;This reverts commit 51e06929">
-      <created>1608870787190</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1608870787191</updated>
-    </task>
-    <task id="LOCAL-00015" summary="homeWork5">
-      <created>1610680848800</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1610680848800</updated>
-    </task>
-    <task id="LOCAL-00016" summary="homeWork5">
-      <created>1610693915928</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1610693915928</updated>
-    </task>
-    <task id="LOCAL-00017" summary="homeWork5_edit">
-      <created>1610694138314</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1610694138314</updated>
-    </task>
-    <task id="LOCAL-00018" summary="homeWork5_edit">
-      <created>1610694314529</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1610694314529</updated>
     </task>
     <task id="LOCAL-00019" summary="hw_terminal1">
       <created>1611576618830</created>
@@ -427,7 +340,154 @@
       <option name="project" value="LOCAL" />
       <updated>1617107076477</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="hw_virt_controlSystems">
+      <created>1617798144478</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1617798144478</updated>
+    </task>
+    <task id="LOCAL-00048" summary="hw_docker1">
+      <created>1618077157020</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1618077157021</updated>
+    </task>
+    <task id="LOCAL-00049" summary="hw_docker2">
+      <created>1618743226392</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1618743226392</updated>
+    </task>
+    <task id="LOCAL-00050" summary="hw_docker2_edit1">
+      <created>1618743506006</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1618743506008</updated>
+    </task>
+    <task id="LOCAL-00051" summary="hw_db1">
+      <created>1619013433839</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1619013433841</updated>
+    </task>
+    <task id="LOCAL-00052" summary="hw_db1_edit1">
+      <created>1619013605843</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1619013605843</updated>
+    </task>
+    <task id="LOCAL-00053" summary="hw_db1_edit2">
+      <created>1619013759320</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1619013759320</updated>
+    </task>
+    <task id="LOCAL-00054" summary="hw_db1_edit3">
+      <created>1619014380987</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1619014380987</updated>
+    </task>
+    <task id="LOCAL-00055" summary="hw_docker2_edi2">
+      <created>1619169768923</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1619169768926</updated>
+    </task>
+    <task id="LOCAL-00056" summary="hw_db2">
+      <created>1619541266625</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1619541266627</updated>
+    </task>
+    <task id="LOCAL-00057" summary="hw_db2_v2">
+      <created>1619542032564</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1619542032564</updated>
+    </task>
+    <task id="LOCAL-00058" summary="hw_db2_v3">
+      <created>1619542199977</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1619542199977</updated>
+    </task>
+    <task id="LOCAL-00059" summary="hw_db3">
+      <created>1619843417256</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1619843417257</updated>
+    </task>
+    <task id="LOCAL-00060" summary="hw_db3_v2">
+      <created>1619843494466</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1619843494467</updated>
+    </task>
+    <task id="LOCAL-00061" summary="hw_db4">
+      <created>1620475752614</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1620475752616</updated>
+    </task>
+    <task id="LOCAL-00062" summary="hw_db4_v2">
+      <created>1620475927065</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1620475927065</updated>
+    </task>
+    <task id="LOCAL-00063" summary="hw_elasticsearch">
+      <created>1621097817500</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1621097817501</updated>
+    </task>
+    <task id="LOCAL-00064" summary="hw_troubleshooting">
+      <created>1621692307650</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1621692307650</updated>
+    </task>
+    <task id="LOCAL-00065" summary="hw_troubleshooting_v2">
+      <created>1621692479700</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1621692479700</updated>
+    </task>
+    <task id="LOCAL-00066" summary="hw_terraform1">
+      <created>1621698929202</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1621698929202</updated>
+    </task>
+    <task id="LOCAL-00067" summary="hw_terraform2">
+      <created>1622389968819</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1622389968821</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -475,31 +535,31 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hw_terminal1_edit" />
-    <MESSAGE value="hw_terminal1_edit2" />
-    <MESSAGE value="hw_terminal2" />
-    <MESSAGE value="hw_terminal2_edit2" />
-    <MESSAGE value="hw_terminal2_edit3" />
-    <MESSAGE value="hw_terminal2_edit4" />
-    <MESSAGE value="add_pictures_for_hw.os1" />
-    <MESSAGE value="hw_os1_edit1" />
-    <MESSAGE value="hw_os1_edit2" />
-    <MESSAGE value="hw_os2" />
-    <MESSAGE value="hw_file.systems" />
-    <MESSAGE value="hw_net1" />
-    <MESSAGE value="hw_net2" />
-    <MESSAGE value="hw_net3" />
-    <MESSAGE value="hw_net3_edit1" />
-    <MESSAGE value="hw_net3_edit2" />
-    <MESSAGE value="hw_security" />
-    <MESSAGE value="hw_security_edit1" />
-    <MESSAGE value="hw_bash" />
-    <MESSAGE value="hw_bash_edit1" />
-    <MESSAGE value="hw_python" />
     <MESSAGE value="hw_python_edit1" />
     <MESSAGE value="hw_python_edit2" />
     <MESSAGE value="hw_json-yml" />
     <MESSAGE value="hw_virt_basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw_virt_basics" />
+    <MESSAGE value="hw_virt_controlSystems" />
+    <MESSAGE value="hw_docker1" />
+    <MESSAGE value="hw_docker2" />
+    <MESSAGE value="hw_docker2_edit1" />
+    <MESSAGE value="hw_db1" />
+    <MESSAGE value="hw_db1_edit1" />
+    <MESSAGE value="hw_db1_edit2" />
+    <MESSAGE value="hw_db1_edit3" />
+    <MESSAGE value="hw_docker2_edi2" />
+    <MESSAGE value="hw_db2" />
+    <MESSAGE value="hw_db2_v2" />
+    <MESSAGE value="hw_db2_v3" />
+    <MESSAGE value="hw_db3" />
+    <MESSAGE value="hw_db3_v2" />
+    <MESSAGE value="hw_db4" />
+    <MESSAGE value="hw_db4_v2" />
+    <MESSAGE value="hw_elasticsearch" />
+    <MESSAGE value="hw_troubleshooting" />
+    <MESSAGE value="hw_troubleshooting_v2" />
+    <MESSAGE value="hw_terraform1" />
+    <MESSAGE value="hw_terraform2" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw_terraform2" />
   </component>
 </project>

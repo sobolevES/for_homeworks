@@ -1,29 +1,9 @@
-data "aws_caller_identity" "current" {}
-
-output "account_id" {
-  value = data.aws_caller_identity.current.account_id
+output "s3_bucket_arn" {
+    value = aws_s3_bucket.terraform_state.arn
+    description = "ARN(Amazon Resource Name) S3 Bucket"
 }
 
-output "caller_user" {
-  value = data.aws_caller_identity.current.user_id
+output "dynamodb_table_name" {
+    value = aws_dynamodb_table.terraform_locks.name
+    description = "Таблица DynamoDB"
 }
-
-output "region_name" {
-  value = aws_instance.web.availability_zone
-}
-
-output "caller_arn" {
-  value = data.aws_caller_identity.current.arn
-}
-
-output "instance_private_ip" {
-  value = aws_instance.web.private_ip
-  description = "this private_ip"
-}
-
-output "network_id" {
-  value = aws_instance.web.subnet_id
-  description = "subnet_id"
-}
-
-
