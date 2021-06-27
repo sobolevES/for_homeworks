@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bdf7cea9-3105-4729-98f6-607c1e2e08fa" name="Default Changelist" comment="add_file_for_homeWork4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get.py" beforeDir="false" afterPath="$PROJECT_DIR$/get.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/hw5.md" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/hw5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/output.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/output.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/versions.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/versions.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/playbook/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook/group_vars/all/examp.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbook/group_vars/all/examp.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook/group_vars/deb/examp.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbook/group_vars/deb/examp.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook/group_vars/el/examp.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbook/group_vars/el/examp.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook/inventory/prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbook/inventory/prod.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,12 @@
         </map>
       </branch-storage>
     </favorite-branches>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="025ef984d5752618a3a46ce518a750e86068a118" />
@@ -143,20 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608812941061</updated>
-    </task>
-    <task id="LOCAL-00019" summary="hw_terminal1">
-      <created>1611576618830</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1611576618830</updated>
-    </task>
-    <task id="LOCAL-00020" summary="hw_terminal1_edit">
-      <created>1611577044505</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1611577044505</updated>
     </task>
     <task id="LOCAL-00021" summary="hw_terminal1_edit">
       <created>1611579034368</created>
@@ -487,7 +479,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622389968821</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="hw_terraform3">
+      <created>1622992702659</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1622992702660</updated>
+    </task>
+    <task id="LOCAL-00069" summary="push_playbook">
+      <created>1624802097181</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1624802097183</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,12 +502,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -535,8 +546,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hw_python_edit1" />
-    <MESSAGE value="hw_python_edit2" />
     <MESSAGE value="hw_json-yml" />
     <MESSAGE value="hw_virt_basics" />
     <MESSAGE value="hw_virt_controlSystems" />
@@ -560,6 +569,8 @@
     <MESSAGE value="hw_troubleshooting_v2" />
     <MESSAGE value="hw_terraform1" />
     <MESSAGE value="hw_terraform2" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw_terraform2" />
+    <MESSAGE value="hw_terraform3" />
+    <MESSAGE value="push_playbook" />
+    <option name="LAST_COMMIT_MESSAGE" value="push_playbook" />
   </component>
 </project>
