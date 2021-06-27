@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdf7cea9-3105-4729-98f6-607c1e2e08fa" name="Default Changelist" comment="add_file_for_homeWork4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbook/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/playbook/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbook/group_vars/all/examp.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbook/group_vars/all/examp.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbook/group_vars/deb/examp.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbook/group_vars/deb/examp.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbook/group_vars/el/examp.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbook/group_vars/el/examp.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbook/inventory/prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbook/inventory/prod.yml" afterDir="false" />
-    </list>
+    <list default="true" id="bdf7cea9-3105-4729-98f6-607c1e2e08fa" name="Default Changelist" comment="add_file_for_homeWork4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,13 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608812941061</updated>
-    </task>
-    <task id="LOCAL-00021" summary="hw_terminal1_edit">
-      <created>1611579034368</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1611579034368</updated>
     </task>
     <task id="LOCAL-00022" summary="hw_terminal1_edit2">
       <created>1611579958911</created>
@@ -493,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624802097183</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="hw_ansible1">
+      <created>1624814956797</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1624814956797</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -546,7 +539,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hw_json-yml" />
     <MESSAGE value="hw_virt_basics" />
     <MESSAGE value="hw_virt_controlSystems" />
     <MESSAGE value="hw_docker1" />
@@ -571,6 +563,7 @@
     <MESSAGE value="hw_terraform2" />
     <MESSAGE value="hw_terraform3" />
     <MESSAGE value="push_playbook" />
-    <option name="LAST_COMMIT_MESSAGE" value="push_playbook" />
+    <MESSAGE value="hw_ansible1" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw_ansible1" />
   </component>
 </project>
